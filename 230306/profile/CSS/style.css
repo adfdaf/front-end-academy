@@ -33,7 +33,7 @@ aside {
   float: left;
   width: 300px; height: 100vh;
   padding: 20px 50px;
-  background-color: skyblue;
+  background-color: rgba(220, 20, 60, 0.479);
 }
 aside > #namecard > h1 {
   margin-top: 20px;
@@ -57,7 +57,7 @@ aside p {
 #main {
   float: left;
   width: 600px; height: 100vh;
-  background-color: rgba(220, 20, 60, 0.479);
+  background-color: skyblue;
   padding: 20px;
 }
 #main > section {
@@ -89,4 +89,7 @@ table {
 }
 caption {
   margin: 10px;
+}
+thead {
+  background-color: antiquewhite;
 }
